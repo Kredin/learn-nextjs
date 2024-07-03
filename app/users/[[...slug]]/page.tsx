@@ -5,15 +5,14 @@ interface Props {
   searchParams: { sortOrder: string };
 }
 
-const ProductPage = ({
+const SortUsersPage = ({
   params: { slug },
   searchParams: { sortOrder },
 }: Props) => {
-  return (
-    <div>
-      ProductPage {slug} {sortOrder}
-    </div>
-  );
+  return;
+  <div>
+    SortUsersPage {slug} {sortOrder}
+  </div>;
 };
 
-export default ProductPage;
+export default SortUsersPage;
