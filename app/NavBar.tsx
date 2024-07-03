@@ -7,7 +7,10 @@ const NavBar = () => {
       <Link href="/" className="mr-5">
         Home
       </Link>
-      <Link href="users">Users</Link>
+      <Link href="/admin" className="mr-5">
+        Admin
+      </Link>
+      <Link href="/users">Users</Link>
     </div>
   );
 };
